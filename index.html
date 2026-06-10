@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Random Number Guessing Game</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <section class="card">
+      <div class="hero">
+        <p class="eyebrow">Beginner JavaScript Project</p>
+        <h1>Guess the Secret Number</h1>
+        <p class="subtitle">A fun, responsive number guessing game with instant feedback, attempt tracking, and a clean modern UI.</p>
+      </div>
+
+      <div class="stats" aria-label="Game stats">
+        <div class="stat-box">
+          <span class="stat-label">Range</span>
+          <strong id="rangeText">1 - 100</strong>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">Attempts</span>
+          <strong id="attemptsText">0</strong>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">Best</span>
+          <strong id="bestText">—</strong>
+        </div>
+      </div>
+
+      <div class="game-panel">
+        <label for="guessInput">Enter your guess</label>
+        <div class="input-row">
+          <input id="guessInput" type="number" min="1" max="100" placeholder="Type a number" autocomplete="off" />
+          <button id="guessBtn" class="primary-btn">Check</button>
+        </div>
+
+        <div class="controls">
+          <button id="restartBtn" class="secondary-btn">New Game</button>
+          <button id="hintBtn" class="ghost-btn">Give Hint</button>
+        </div>
+
+        <div id="messageBox" class="message" role="status" aria-live="polite">
+          Start guessing to begin the game.
+        </div>
+      </div>
+
+      <section class="history-section">
+        <h2>Guess History</h2>
+        <ul id="historyList" class="history-list"></ul>
+      </section>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
