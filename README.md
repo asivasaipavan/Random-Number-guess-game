@@ -63,40 +63,15 @@ No additional setup or installation is required.
 4. Keep guessing until you find the correct number.
 5. Use the **Restart Game** button to play again.
 
-## 📸 Screenshot
-
-Add a screenshot of your project here:
 
 ```
-assets/screenshot.png
-```
 
-## 🔮 Future Enhancements
+## 👨‍💻 Author
 
-* Difficulty levels (Easy, Medium, Hard)
-* Timer functionality
-* High-score tracking using Local Storage
-* Sound effects and animations
-* Dark/Light mode toggle
-* Leaderboard system
+Siva Sai Pavan
 
-## 📚 Learning Outcomes
-
-Through this project, I practiced:
-
-* DOM Manipulation
-* Event Handling
-* JavaScript Functions
-* Conditional Statements
-* Random Number Generation
-* Responsive Web Design
-* User Interface Design
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome.
-
-Feel free to fork this repository and submit a pull request.
+GitHub: Add your GitHub profile link here
+LinkedIn: Add your LinkedIn profile link here
 
 ## 📄 License
 
