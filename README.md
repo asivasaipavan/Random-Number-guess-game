@@ -2,6 +2,8 @@
 
 A responsive and interactive web-based Number Guessing Game built using **HTML**, **CSS**, and **JavaScript**.
 
+- Live Demo: https://asivasaipavan.github.io/Random-Number-guess-game/
+
 ## 📌 Overview
 
 This project generates a random number between **1 and 100**, and the player must guess the correct number. The game provides hints after each attempt and tracks the number of guesses taken.
